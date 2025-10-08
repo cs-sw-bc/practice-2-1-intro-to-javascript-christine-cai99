@@ -19,18 +19,28 @@
     // 1) Hello, JavaScript!
     // - Create a variable called message and store "Hello JavaScript!" in it.
     // - Use console.log() to print it.
+    let message="Hello JavaScript";
+    console.log(message)
 
 
     // 2) My Details
     // - Create three variables: name, age, and city.
     // - Use console.log() to print a sentence like:
     //   "My name is Soma, I am 30 years old, and I live in Toronto."
-
+    let myName = " Soma";
+    let age = 30;
+    let city = "Toronto";
+    console.log("My name is"+myName+", I am " +age+" years old, and I live in "+city+".");
 
     // 3) Favorite Number
     // - Create a variable called favoriteNumber.
     // - Print double that number using *.
     // - Print half that number using /.
+
+    let favoriteNumber = 7;
+    console.log(favoriteNumber*2);
+    console.log(favoriteNumber/2);
+
 
 
     // =========================================
@@ -42,22 +52,38 @@
     // - Create a variable celsius (e.g., 25).
     // - Compute fahrenheit and log:
     //   "25°C is equal to 77°F" (use your values).
+    let celsius = 25;
+    let fahrenheit = (celsius*9/5) + 32;
+    console.log(celsius+"°C is equal to "+fahrenheit+"°F");
 
 
     // 5) Percentage Calculator
     // - Given score and total (e.g., 45 out of 60), compute percentage. Use variables to store each of these values.
     // - Log: "Your percentage is 75%" (use your computed value).
-
+    let score = 45;
+    let total = 60;
+    let percentage = score/total*100;
+    console.log("Your percentage is "+percentage+"%");
 
     // 6) Simple Interest
     // - Formula: Interest = (Principal × Rate × Time) / 100
     // - Use principal, rate, time (e.g., 1000, 5, 2).
     // - Log: "The interest is ___" (fill in the computed value).
+    let principal = 100;
+    let rate= 2;
+    let time = 2;
+    let interest = (principal*rate*time)/100;
+    console.log("The interest is "+interest);
 
 
     // 7) Average Marks
     // - Create variables for 3 subject marks: math, science, english.
     // - Compute average and log it.
+    let math = 100;
+    let science = 90;
+    let english = 60;
+    let average = (math+science+english)/3;
+    console.log(average);
 
 
     // =========================================
@@ -67,17 +93,29 @@
     // 8) Combine Info
     // - Create variables: firstName, lastName, age.
     // - Log: "Alex Ramos is 28 years old." (use your values).
+      let firstName = "Alex";
+      let lastName = " Ramos";
+      let age2 = 28;
+      console.log(firstName+lastName+"is "+age2+" years old.")
 
 
     // 9) Total Bill
     // - Use itemPrice and quantity (e.g., 20 and 3).
     // - Compute total and log: "Total cost: $60" (use your values).
+    let itemPrice = 20;
+    let quantity = 3;
+    let total2 = itemPrice*quantity;
+    console.log("Total cost: $"+total2)
 
 
     // 10) Convert Minutes to Hours
     // - Given minutes (e.g., 135), compute hours and leftover minutes.
     // - Use division for hours and remainder for minutes.
     // - Log: "135 minutes = 2 hours and 15 minutes" (use your values).
+    let minutes= 135;
+    let leftoverMinutes = minutes%60;
+    let hours = (minutes-leftoverMinutes)/60;
+    console.log(minutes+" minutes = "+hours+" hours and "+leftoverMinutes+" minutes");
   </script>
 </body>
 </html>
